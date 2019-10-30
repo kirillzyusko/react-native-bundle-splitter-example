@@ -1,10 +1,6 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import { register } from 'react-native-bundle-splitter';
-
-const Screen = register({
-    require: () => require('./HelloWorld')
-});
+import Screen from './src/screens/DummyScreen';
 
 const App = () => {
   return (
