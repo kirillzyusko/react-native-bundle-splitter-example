@@ -11,7 +11,7 @@
   "dependencies": {
     "react": "16.8.1",
     "react-native": "0.61.3",
-    "react-native-bundle-splitter": "^1.0.5"
+    "react-native-bundle-splitter": "^1.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.5.0",
