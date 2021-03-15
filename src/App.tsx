@@ -11,16 +11,15 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-// import {enableScreens} from 'react-native-screens';
-// import {investigate} from 'react-native-bundle-splitter/dist/utils';
+import {investigate} from 'react-native-bundle-splitter/dist/utils';
 
 import HomeScreen from './screens/Home';
 import DetailsScreen from './screens/Details';
 
-// enableScreens();
-
-// console.log(`module.exports = ${JSON.stringify(investigate().loaded.sort())};`);
-// console.log(investigate());
+if (__DEV__) {
+  console.log(`module.exports = ${JSON.stringify(investigate().loaded.sort())};`);
+  console.log(investigate());
+}
 
 const Stack = createStackNavigator();
 

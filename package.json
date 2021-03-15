@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
+    "android": "react-native run-android --variant=release",
     "ios": "react-native run-ios",
     "windows": "react-native run-windows",
     "macos": "react-native run-macos",
@@ -19,7 +19,7 @@
     "react": "16.11.0",
     "react-dom": "^16.14.0",
     "react-native": "^0.62.0-0",
-    "react-native-bundle-splitter": "git://github.com/kirillzyusko/react-native-bundle-splitter.git#feature/web-support",
+    "react-native-bundle-splitter": "git://github.com/kirillzyusko/react-native-bundle-splitter.git#web-support/preview",
     "react-native-gesture-handler": "^1.9.0",
     "react-native-macos": "^0.62.0-0",
     "react-native-reanimated": "^1.13.2",
